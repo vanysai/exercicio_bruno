@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Bruno</title>
+    <script>
+    
+    let nota1 = parseInt(prompt('Digite a 1 nota'))
+    let nota2 = parseInt(prompt('Digite a 2 nota'))
+    let media = (nota1 + nota2) / 2
+    console.log(media)
+
+    if (media >= 6) {
+        console.log('Aprovado');
+    } else {
+        console.log('Exame');
+        let exame = parseFloat(prompt('Digite nota do exame'))
+        let notaFinal = (media + exame) / 2
+
+        console.log(notaFinal)
+
+        if(notaFinal >= 6)
+            console.log('Aprovado');
+        else
+            console.log('Reprovado');
+        
+    }
+
+ 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
